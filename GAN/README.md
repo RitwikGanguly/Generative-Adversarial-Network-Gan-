@@ -66,3 +66,16 @@ Where:
 
 These loss functions create an adversarial training process, where the generator aims to minimize its loss by generating samples that the discriminator considers real, while the discriminator aims to maximize its loss by correctly classifying real and generated samples.
 
+### Nash Equilibrium
+
+GAN is based on the zero-sum non-cooperative game. In short, if one wins the other loses. A zero-sum game is also called minimax. Your opponent wants to maximize its actions and your actions are to minimize them. In game theory, the GAN model converges when the discriminator and the generator reach a Nash equilibrium. This is the optimal point for the minimax equation below.
+
+![nash1](https://miro.medium.com/v2/resize:fit:828/format:webp/1*l9se1koH_eQdZesko5eQpw.jpeg)
+
+The Nash equilibrium refers to a scenario in which there exists no motivation for players to stray from their initial strategy alone. Consider two player A and B which control the value of x and y respectively. Player A wants to maximize the value xy while B wants to minimize it.
+
+![nash2](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5FT0yTKZhl1JsxR6uN026w.jpeg)
+
+The Nash equilibrium is x=y=0. This is the state where the change of mind of a single player will not improve the result. 
+
+
