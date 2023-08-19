@@ -61,7 +61,7 @@ Where:
 - **D(x)** is the discriminator's output when evaluating a real data sample **x**.
 - **D(G(z))** is the discriminator's output when evaluating the generator's output, given random noise **z** as input.
 
- > ###### L = log(sigmoid(D(x))) + log(1-sigmoid(D(G(z))))
+ > #### L = log(sigmoid(D(x))) + log(1-sigmoid(D(G(z))))
 
 
 These loss functions create an adversarial training process, where the generator aims to minimize its loss by generating samples that the discriminator considers real, while the discriminator aims to maximize its loss by correctly classifying real and generated samples.
