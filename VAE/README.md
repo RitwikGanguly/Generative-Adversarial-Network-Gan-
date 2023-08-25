@@ -46,7 +46,7 @@ An autoencoder is a neural network architecture designed for unsupervised learni
    - The primary objective of training an autoencoder is to minimize the difference between the original input and the reconstructed output (i.e Minimize the reconstruction loss).
    - The mean squared error (MSE) loss is commonly used: `MSE = 1/n * Σ(input - output)^2`, where `n` is the number of data points.
 
-2**Hyperparameters:**
+2. **Hyperparameters:**
    - Hyperparameters like learning rate, batch size, and the number of hidden layers/neurons impact the training process and the quality of the learned representation.
 
 ### Optimizing Autoencoders:
@@ -71,8 +71,6 @@ An autoencoder is a neural network architecture designed for unsupervised learni
 
 7. **Transfer Learning with Autoencoders:**
    - Pretrain an autoencoder on a large dataset and fine-tune it for a specific task. The learned features can be beneficial for related tasks.
-
-In summary, an autoencoder is a versatile neural network architecture used for dimensionality reduction, feature extraction, and generative tasks. Optimizing autoencoders involves selecting appropriate architectures, regularization techniques, and hyperparameters to achieve desired outcomes efficiently.
 
 ---
 
