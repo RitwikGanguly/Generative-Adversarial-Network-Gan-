@@ -65,6 +65,7 @@ Then Jaccard Index = (common singles in A&B) / (Total Singles in A&B) = 2/6
 - **Min Hashing:** Minhashing is a technique to estimate the Jaccard similarity between sets by using hash functions. It involves selecting a set of hash functions and finding the minimum hash value for each shingle in a document. This is the critical and the most magical aspect of LSH algorithm.
 
 Step 1: Random permutation (π) of row index of document shingle matrix.
+
 ![mh1](https://miro.medium.com/v2/resize:fit:640/format:webp/1*_o4WE7tW0qIjefYzjlpqJA.png)
 
 Step 2: In LSH hash function is the index of the first (in the permuted order) row in which column C has value 1. Do this several time (use different permutations) to create signature of a column. Follow the below Image.
